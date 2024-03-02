@@ -29,6 +29,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "types": ["vite-plugin-svgr/client", "vitest/globals"],
+    /* Path */
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
       "~/*": ["./*"]
